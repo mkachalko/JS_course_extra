@@ -19,6 +19,9 @@ const getList = function (array, today) {
     if (i == today) {
       li.append(array[i]);
       li.style.fontWeight = "bold";
+      if (array[i] == "Sunday" || array[i] == "Saturday" ) {
+        li.style.fontStyle = "italic";
+      }
       result.push(li);
       
     } else if(array[i] == "Sunday" || array[i] == "Saturday" ) {
