@@ -1,0 +1,27 @@
+.square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  background-color: #eecb32;
+}
+
+.button-block {
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  background-color: #3ba7d1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.start {
+  margin-right: 20px;
+}
